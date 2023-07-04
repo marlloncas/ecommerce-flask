@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="/" method="post">
+    <input type="number" name="ID_CUPOM">
+    <input type="text" name="NOME">
+    <input type="number" name="VALOR_DESCONTO" >
+
+    <button type="submit">Salvar</button>
+</form>
+
+{% endblock %}
